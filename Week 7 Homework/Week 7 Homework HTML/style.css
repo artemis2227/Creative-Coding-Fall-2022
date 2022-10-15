@@ -1,0 +1,21 @@
+span{
+    color:white;
+}
+
+
+.DarkBlueColor{
+    color:#000044;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#specificColor{
+    color:purple;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+body.image {
+    background-image: url(images/ZTD-backgroundjpg.jpg);
+    background-color: #cccccc;
+   }
+
