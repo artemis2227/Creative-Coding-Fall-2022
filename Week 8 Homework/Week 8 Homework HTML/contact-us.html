@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Me!
+        </title>
+        <style>
+            span{
+                background-color: yellow;
+            }
+        </style>
+       <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <script>
+        function checkRequirements()
+        {
+            var FirstName = document.getElementById("FirstName").value;
+            if (FirstName == "")
+            {
+                window.alert("Hey, I need your name, Baka!");
+                document.getElementById("FirstName").style.backgroundColor = "red";
+                document.getElementById("FirstName").focus();
+            }
+
+            var LastName = document.getElementById("LastName").value;
+            if (LastName == "")
+            {
+                window.alert("And your last name, Baka!");
+                document.getElementById("LastName").style.backgroundColor = "red";
+                document.getElementById("LastName").focus();
+            }
+    
+            var EMail = document.getElementById("EMail").value;
+            if (EMail == "")
+            {
+                window.alert("And your email! Geez, how much of a Baka can you be?");
+                document.getElementById("EMail").style.backgroundColor = "red";
+                document.getElementById("EMail").focus();
+            }
+        
+            var yes = document.getElementById("yes").checked == true/false
+            var no = document.getElementById("no").value;
+            if(document.getElementById("yes").checked == false)
+            {
+                window.alert("Agreeing or Disagreeing is Mandatory!");
+            }
+
+            if(document.getElementById("no").checked == true)
+            {
+                window.alert("You gotta agree man!");
+            }
+        }
+    </script>
+
+    </head>
+    <body>
+        <h1>
+            Contact Me!
+        </h1>
+        <form action="nextPage.html" type="Post">
+            <span>First Name:</span> <input type="text"
+                 id="FirstName"><br>
+            <span>Last Name:</span> <input type="text"
+                id="LastName"><br>
+            <span>E-mail:</span> <input type="text"
+                id="EMail"><br>
+
+        <h2>Do you accept the <dfn title="Give me $20 and your firstborn">Terms of Agreement?</dfn></h2>
+            <input type="radio" name="y/n" id="yes" >Yes<br></input>
+            <input type="radio" name="y/n" id="no" >No<br></input>
+            <input type="button" name="submit" value="Submit"  onclick="checkRequirements()"/>
+        </form>
+        
+        <!-- links section -->
+        <hr />
+        <a href="index.html">Homepage</a>
+        <hr />
+        <a href="favorite-story.html">My Favorite Story</a>
+        <hr />
+    </body>
+</html>
