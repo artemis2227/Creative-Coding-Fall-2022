@@ -1,0 +1,40 @@
+
+
+index - homepage with links to 4 other pages
+page 1 - leon kennedy - mention leon as a quippy action hero
+page 2 - chris redfield - note chris representng military action in RE5 and RE6
+page 3 - jill valentine - include picture of jill in tube-top
+page 4 - ada wong
+secret page - final message and thank you to cassens and shanel
+general info about the characters on each page
+
+
+need four clues to find the hidden link?
+hidden hover button on homepage?
+homepage - images of monsters and locactions from the game
+
+in order - 
+
+Village from RE4
+creepy spine boss
+RPD hall - 'used to be an art museum'
+Close up of licker 'famous for blindness'
+Followed by Close up of door from RE8
+Lycans
+
+
+
+
+
+
+ada page - gives order of riddle -"tube top, action hero, military man"
+
+"lost in halls of ancient art - jill
+Sneak past the blind monster - leon
+select the door which leads to a different world" - chris
+
+
+Jill - hidden strikethrough
+Leon - hover over image reveals "inspect me" message
+chris - in metadata
+ada - indicated in text (br or capitals)
