@@ -1,0 +1,1 @@
+This Website is a puzzle. You are looking for pieces of a riddle (marked by quotation marks) and the order of the pieces. Poke around, but don't look at the files until after you'd given it your best shot.
